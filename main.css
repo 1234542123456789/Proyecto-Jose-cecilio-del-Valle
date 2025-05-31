@@ -1,0 +1,23 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.dtitem-img{
+    height: 500px;
+}
+.dt-img{
+    filter: brightness(0.5);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.logo-item {
+    width: 60px;
+    height: 60px;
+    margin: 0 10px 0 0;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.logo-item:hover {
+    transform: scale(1.1) rotate(20deg);
+    filter: brightness(1.2);
+    transition: all 0.3s ease-in-out;
+}
